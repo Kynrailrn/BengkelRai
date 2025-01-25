@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AdminLTE 3 | Dashboard 2</title>
 
   <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- overlayScrollbars -->
@@ -14,191 +16,362 @@
   <!-- Theme style -->
   <link rel="stylesheet" href="dist/css/adminlte.min.css">
 </head>
+
 <body class="hold-transition dark-mode sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
-<div class="wrapper">
+  <div class="wrapper">
 
-  <!-- Preloader -->
-  <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__wobble" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
-  </div>
+    <!-- Preloader -->
+    <div class="preloader flex-column justify-content-center align-items-center">
+      <img class="animation__wobble" src="dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+    </div>
 
-  <!-- Navbar -->
-  <nav class="main-header navbar navbar-expand navbar-dark">
-    <!-- Left navbar links -->
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="index3.html" class="nav-link">Home</a>
-      </li>
-      <li class="nav-item d-none d-sm-inline-block">
-        <a href="#" class="nav-link">Contact</a>
-      </li>
-    </ul>
+    <!-- Navbar -->
+    <nav class="main-header navbar navbar-expand navbar-dark">
+      <!-- Left navbar links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="index3.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+          <a href="#" class="nav-link">Contact</a>
+        </li>
+      </ul>
 
-    <!-- Right navbar links -->
-    <ul class="navbar-nav ml-auto">
-      <!-- Navbar Search -->
-      <li class="nav-item">
-        <a class="nav-link" data-widget="navbar-search" href="#" role="button">
-          <i class="fas fa-search"></i>
-        </a>
-        <div class="navbar-search-block">
-          <form class="form-inline">
-            <div class="input-group input-group-sm">
-              <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
-              <div class="input-group-append">
-                <button class="btn btn-navbar" type="submit">
-                  <i class="fas fa-search"></i>
-                </button>
-                <button class="btn btn-navbar" type="button" data-widget="navbar-search">
-                  <i class="fas fa-times"></i>
-                </button>
+      <!-- Right navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <!-- Navbar Search -->
+        <li class="nav-item">
+          <a class="nav-link" data-widget="navbar-search" href="#" role="button">
+            <i class="fas fa-search"></i>
+          </a>
+          <div class="navbar-search-block">
+            <form class="form-inline">
+              <div class="input-group input-group-sm">
+                <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+                <div class="input-group-append">
+                  <button class="btn btn-navbar" type="submit">
+                    <i class="fas fa-search"></i>
+                  </button>
+                  <button class="btn btn-navbar" type="button" data-widget="navbar-search">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div>
               </div>
-            </div>
-          </form>
-        </div>
-      </li>
+            </form>
+          </div>
+        </li>
 
-      <!-- Messages Dropdown Menu -->
+        <!-- Messages Dropdown Menu -->
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
           <a href="#" class="dropdown-item">
-          <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer"></a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item dropdown-footer"></a>
         </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-widget="fullscreen" href="#" role="button">
-          <i class="fas fa-expand-arrows-alt"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
-          <i class="fas fa-th-large"></i>
-        </a>
-      </li>
-    </ul>
-  </nav>
-  <!-- /.navbar -->
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-widget="fullscreen" href="#" role="button">
+            <i class="fas fa-expand-arrows-alt"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+            <i class="fas fa-th-large"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- /.navbar -->
 
-  <!-- Main Sidebar Container -->
-  <aside class="main-sidebar sidebar-dark-primary elevation-4">
-    <!-- Brand Logo -->
-    <a href="index3.html" class="brand-link">
-      <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-      <span class="brand-text font-weight-light">FRAM WORKSHOP</span>
-    </a>
+    <!-- Main Sidebar Container -->
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+      <!-- Brand Logo -->
+      <a href="index3.html" class="brand-link">
+        <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+          style="opacity: .8">
+        <span class="brand-text font-weight-light">FRAM WORKSHOP</span>
+      </a>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
-      <!-- Sidebar user panel (optional) -->
-      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div class="image">
-          <img src="dist/img/logofram.jpg" class="img-circle elevation-2" alt="User Image">
-        </div>
-        <div class="info">
-          <a href="#" class="d-block">Admin FRAM</a>
-        </div>
-      </div>
-
-      <!-- SidebarSearch Form -->
-      <div class="form-inline">
-        <div class="input-group" data-widget="sidebar-search">
-          <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-          <div class="input-group-append">
-            <button class="btn btn-sidebar">
-              <i class="fas fa-search fa-fw"></i>
-            </button>
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+          <div class="image">
+            <img src="dist/img/logofram.jpg" class="img-circle elevation-2" alt="User Image">
+          </div>
+          <div class="info">
+            <a href="#" class="d-block">Admin FRAM</a>
           </div>
         </div>
-      </div>
 
-      <!-- Sidebar Menu -->
-      <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-          <!-- Add icons to the links using the .nav-icon class
+        <!-- SidebarSearch Form -->
+        <div class="form-inline">
+          <div class="input-group" data-widget="sidebar-search">
+            <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btn btn-sidebar">
+                <i class="fas fa-search fa-fw"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="#" class="nav-link active">
-              <i class="nav-icon fas fa-tachometer-alt"></i>
-              <p>
-                Transaksi
-                <i class="right fas fa-angle-left"></i>
-              </p>
-            </a>
-            <ul class="nav nav-treeview">
-              <li class="nav-item">
-                <a href="./index.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Produk</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index2.html" class="nav-link active">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Montir / Mekanik</p>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="./index3.html" class="nav-link">
-                  <i class="far fa-circle nav-icon"></i>
-                  <p>Logout</p>
-                </a>
-              </li>
+            <li class="nav-item menu-open">
+              <a href="#" class="nav-link active">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <p>
+                  Transaksi
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="./index.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Produk</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index2.html" class="nav-link active">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Montir / Mekanik</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="./index3.html" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Logout</p>
+                  </a>
+                </li>
 
-      <!-- /.sidebar-menu -->
-    </div>
-    <!-- /.sidebar -->
-  </aside>
+                <!-- /.sidebar-menu -->
+      </div>
+      <!-- /.sidebar -->
+    </aside>
 
-  <!-- Content Wrapper. Contains page content -->
-  <div class="content-wrapper">
-    <!-- Content Header (Page header) -->
-    <div class="content-header">
-      <div class="container-fluid">
-        <div class="row mb-2">
-          <div class="col-sm-6">
-            <h1 class="m-0">Dashboard v2</h1>
-          </div><!-- /.col -->
-          
+    <!-- Content Wrapper. Contains page content -->
+    <div class="content-wrapper">
+      <!-- Content Header (Page header) -->
+      <div class="content-header">
+        <div class="container-fluid">
+          <div class="row mb-2">
+            <div class="col-sm-6">
+              <h1 class="m-0">Daftar Montir / Mekanik</h1>
+            </div><!-- /.col -->
 
-    
+            <head>
+              <meta charset="UTF-8">
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <title>Admin - Daftar Montir</title>
+              <style>
+                body {
+                  font-family: Arial, sans-serif;
+                  margin: 0;
+                  padding: 0;
+                }
+
+                .container {
+                  padding: 20px;
+                }
+
+                .sidebar {
+                  width: 200px;
+                  float: left;
+                  background-color: #fcf7f7;
+                  height: 100vh;
+                  padding: 10px;
+                  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+                }
+
+                .sidebar h3 {
+                  text-align: center;
+                }
+
+                .sidebar ul {
+                  list-style-type: none;
+                  padding: 0;
+                }
+
+                .sidebar ul li {
+                  margin: 10px 0;
+                }
+
+                .sidebar ul li a {
+                  text-decoration: none;
+                  color: #333;
+                  display: block;
+                  padding: 5px;
+                }
+
+                .sidebar ul li a:hover {
+                  background-color: #ffffff;
+                }
+
+                .content {
+                  margin-left: 220px;
+                  padding: 20px;
+                }
+
+                .header {
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                }
+
+                .header a {
+                  text-decoration: none;
+                  color: #333;
+                }
+
+                table {
+                  width: 100%;
+                  border-collapse: collapse;
+                  margin-top: 20px;
+                }
+
+                table,
+                th,
+                td {
+                  border: 1px solid hwb(0 100% 0%);
+                }
+
+                th,
+                td {
+                  padding: 10px;
+                  text-align: left;
+                }
+
+                th {
+                  background-color: #007BFF;
+                }
+
+                .btn {
+                  display: inline-block;
+                  padding: 8px 12px;
+                  color: rgb(254, 251, 251);
+                  background-color: #007BFF;
+                  text-decoration: none;
+                  border-radius: 5px;
+                }
+
+                .btn:hover {
+                  background-color: #0056b3;
+                }
+
+                .footer {
+                  text-align: center;
+                  margin-top: 20px;
+                  font-size: 0.9em;
+                  color: #737373;
+                }
+              </style>
+            </head>
+
+            <body>
+              <table>
+                <thead>
+                  <tr>
+                    <th>No</th>
+                    <th>Nama Mekanik</th>
+                    <th>Jenis Montir</th>
+                    <th>Pengalaman</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Muhammad Randy Ilham Ardiyansyah</td>
+                    <td>Spesialis Mekanik</td>
+                    <td>20 tahun</td>
+                    <td>
+                      <a href="#" class="btn">Detail</a>
+                      <a href="#" class="btn">Edit</a>
+                      <a href="#" onclick="deleteMechanic(this)" class="btn">Delete</a>
+                    </td>
+
+                  <tr>
+                    <td>2</td>
+                    <td>Fadhel Yihua Rafael</td>
+                    <td>Senior Mekanik</td>
+                    <td>10 tahun</td>
+                    <td>
+                      <a href="#" class="btn">Detail</a>
+                      <a href="#" class="btn">Edit</a>
+                      <a href="#" onclick="deleteMechanic(this)" class="btn">Delete</a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>3</td>
+                    <td>Amarsya Swastika Aulia</td>
+                    <td>Quality Control</td>
+                    <td>5 tahun</td>
+                    <td>
+                      <a href="#" class="btn">Detail</a>
+                      <a href="#" class="btn">Edit</a>
+                      <a href="#" onclick="deleteMechanic(this)" class="btn">Delete</a>
+                    </td>
+                  </tr>
+
+                  <td>4</td>
+                  <td>Aisya Az-Zahra</td>
+                  <td>Tim Administrasi dan Keuangan</td>
+                  <td>8 tahun</td>
+                  <td>
+                    <a href="#" class="btn">Detail</a>
+                    <a href="#" class="btn">Edit</a>
+                    <a href="#" onclick="deleteMechanic(this)" class="btn">Delete</a>
+                  </td>
+                  </tr>
+                </tbody>
+              </table>
+
+              <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="#"
+                    class="hover:underline">FRAMWORKSHOP</a>. All Rights Reserved.</span>
+              </div>
+            </body>
+
+            <!-- Control Sidebar -->
+            <aside class="control-sidebar control-sidebar-dark">
+              <!-- Control sidebar content goes here -->
+            </aside>
+            <!-- /.control-sidebar -->
 
 
+            <!-- ./wrapper -->
 
+            <!-- REQUIRED SCRIPTS -->
+            <!-- jQuery -->
+            <script src="plugins/jquery/jquery.min.js"></script>
+            <!-- Bootstrap -->
+            <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <!-- overlayScrollbars -->
+            <script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+            <!-- AdminLTE App -->
+            <script src="dist/js/adminlte.js"></script>
 
-  <!-- Control Sidebar -->
-  <aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-  </aside>
-  <!-- /.control-sidebar -->
+            <!-- PAGE PLUGINS -->
+            <!-- jQuery Mapael -->
+            <script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
+            <script src="plugins/raphael/raphael.min.js"></script>
+            <script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
+            <script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
+            <!-- ChartJS -->
+            <script src="plugins/chart.js/Chart.min.js"></script>
 
-  
-<!-- ./wrapper -->
-
-<!-- REQUIRED SCRIPTS -->
-<!-- jQuery -->
-<script src="plugins/jquery/jquery.min.js"></script>
-<!-- Bootstrap -->
-<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- overlayScrollbars -->
-<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<!-- AdminLTE App -->
-<script src="dist/js/adminlte.js"></script>
-
-<!-- PAGE PLUGINS -->
-<!-- jQuery Mapael -->
-<script src="plugins/jquery-mousewheel/jquery.mousewheel.js"></script>
-<script src="plugins/raphael/raphael.min.js"></script>
-<script src="plugins/jquery-mapael/jquery.mapael.min.js"></script>
-<script src="plugins/jquery-mapael/maps/usa_states.min.js"></script>
-<!-- ChartJS -->
-<script src="plugins/chart.js/Chart.min.js"></script>
-
-<!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
-<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard2.js"></script>
+            <!-- AdminLTE for demo purposes -->
+            <script src="dist/js/demo.js"></script>
+            <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+            <script src="dist/js/pages/dashboard2.js"></script>
 </body>
+
 </html>
